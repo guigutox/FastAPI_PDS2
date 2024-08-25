@@ -30,4 +30,4 @@ jobs:
       - name: Executar pytest
         env:
           DATABASE_URL: postgres://postgres:password@localhost:5432/test_db
-        run: pytest teste.py
+        run: pytest FastAPI_PDS2/teste.py
